@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="home" id="home">
+        <nav class="navbar" id="home">
+        
+            <h1 class="logo">ADVENTURE</h1>
+            <ul class="nav-links">
+                <li class="active"><a href="#home">Home</a></li>
+                <li><a href="#events">Tours</a></li>
+                <li><a href="#explore">Explore</a></li>
+                <li><a href="#about">About</a></li>
+                <li class="ctn"><a href="#">Contact</a></li>
+            </ul>
+            <img src="menu.jpg" alt="" class="menu_btn" width="30px" height="auto">
+
+        
+        </nav>
+    </div>
+    <header>
+        <div class="header-content">
+            <h2>Explore The colorful world</h2>
+            <div class="line"></div>
+            <h1>A Wonderful Gift</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+
+    </header>
+
+    <!-- ---------events--------- -->
+
+
+
+    <section class="events" id="events">
+        <div class="title">
+            <h1>Upcoming Event</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="beach-1236581_640.jpg" alt="">
+                <h4>Beach Exploration</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque dolorum sint voluptatum aliquam in eius.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="mountaineers-5649828_640.jpg">
+                <h4>Everest Camp Trek</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque dolorum sint voluptatum aliquam in eius.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+
+
+
+    </section>
+
+<!-- eplore section -->
+    <section class="explore" id="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THE WORLD</h1>
+            <div class="line"></div>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt tempore ea perspiciatis amet consequuntur fuga?</P>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+
+    </section>
+<!-- tours section -->
+
+    <section class="tours" id="about">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMMING TOURS AND DESTINATION</h1>
+                <div class="line"></div>
+                <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem tempore quibusdam ipsum, commodi expedita deserunt consequatur assumenda officiis odio, ducimus at, quidem a illo autem.</P>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col1 image-col">
+                <div class="image-gallery">
+                    <img src="img1.png" alt="" >
+                    <img src="img2.png" alt="" >
+                    <img src="img3.png" alt="" >
+                    <img src="img4.png" alt="" >
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="footer">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore eaque quis vero placeat? Doloremque, non!</p>
+        <p>Copyright &#169 2023 Outdoor Avenue toronto</p>
+    </section>
+
+
+
+
+
+
+    <script>
+        const menuBtn=document.querySelector(".menu_btn");
+        const navlinks=document.querySelector(".nav-links");
+        menuBtn.addEventListener('click', () => {
+            navlinks.classList.toggle("mobile_menu")
+        });
+
+    </script>
+    
+</body>
+</html>
